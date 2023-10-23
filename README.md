@@ -57,7 +57,7 @@ Note that your solution absolutely does not need to be that compartmentalized or
   - `PirateJimmy.java`
 - [ ] Mutiny on the High Seas
 - [ ] X Marks the Spot
-- [ ] Hit the Rack!
+- [X] Hit the Rack!
   - Mufaro Machaya
   - `HitTheRack.java`
 - [X] Message in a Bottle

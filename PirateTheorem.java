@@ -18,7 +18,7 @@ public class PirateTheorem {
 	/*
 	 * All input files are located at 'dataset/'
 	 */
-	private static String INPUT_FILE = "dataset/infinitepiratetheorem.dat";
+	private static String INPUT_FILE = "dataset/Infinite Pirate Theorem.txt";
 
 	private static void solve(final Scanner in) {
 		int lines = in.nextInt();

@@ -18,13 +18,13 @@ public class Chop {
 	/*
 	 * All input files are located at 'dataset/'
 	 */
-	private static String INPUT_FILE = "dataset/Chop.dat";
+	private static String INPUT_FILE = "dataset/Were In For Some Chop.txt";
 
 	private static void solve(final Scanner in) {
 		// Test Cases
 		int t = in.nextInt();
 		for (int e = 0; e < t; ++e) {
-			
+
 			// The array 'w' represents our set of waves
 			int[] w = new int[in.nextInt()];
 			for (int i = 0; i < w.length; ++i)

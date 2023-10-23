@@ -18,7 +18,7 @@ public class StroudSeas {
 	/*
 	 * All input files are located at 'dataset/'
 	 */
-	private static String INPUT_FILE = "dataset/stroudseas.dat";
+	private static String INPUT_FILE = "dataset/Navigating the Stroudonian Seas.txt";
 
 	private static void input(final Scanner in) {
 		/*

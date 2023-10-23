@@ -18,7 +18,7 @@ public class PirateJimmy {
 	/*
 	 * All input files are located at 'dataset/'
 	 */
-	private static String INPUT_FILE = "dataset/PirateJimmy.dat";
+	private static String INPUT_FILE = "dataset/The Pirate Jimmy.txt";
 
 	private static void solve(final Scanner in) {
 		String line = in.nextLine();

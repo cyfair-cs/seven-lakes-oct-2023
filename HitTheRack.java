@@ -18,7 +18,7 @@ public class HitTheRack {
 	/*
 	 * All input files are located at 'dataset/'
 	 */
-	private static String INPUT_FILE = "dataset/rack.dat";
+	private static String INPUT_FILE = "dataset/Hit the Rack.txt";
 
 	/*
 	 * We parse each time to a double (in hours)

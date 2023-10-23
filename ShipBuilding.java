@@ -18,7 +18,7 @@ public class ShipBuilding {
 	/*
 	 * All input files are located at 'dataset/'
 	 */
-	private static String INPUT_FILE = "dataset/ShipBuilding.dat";
+	private static String INPUT_FILE = "dataset/Shipbuilding.txt";
 
 	private static void solve(final Scanner in) {
 		// Test Cases

@@ -18,7 +18,7 @@ public class Message {
 	/*
 	 * All input files are located at 'dataset/'
 	 */
-	private static String INPUT_FILE = "dataset/message.dat";
+	private static String INPUT_FILE = "dataset/Message in a Bottle.txt";
 
 	private static String erase_characters(String message) {
 		while (message.contains("#"))

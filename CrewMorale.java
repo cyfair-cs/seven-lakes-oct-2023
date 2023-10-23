@@ -18,7 +18,7 @@ public class CrewMorale {
 	/*
 	 * All input files are located at 'dataset/'
 	 */
-	private static String INPUT_FILE = "dataset/crewmorale.dat";
+	private static String INPUT_FILE = "dataset/Crew Morale.txt";
 
 	private static void solve(final Scanner in) {
 		final int lines = in.nextInt();

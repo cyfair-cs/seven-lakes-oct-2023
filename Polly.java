@@ -18,7 +18,7 @@ public class Polly {
 	/*
 	 * All input files are located at 'dataset/'
 	 */
-	private static String INPUT_FILE = "dataset/polly.dat";
+	private static String INPUT_FILE = "dataset/Polly Wanna Cracker.txt";
 
 	private static void solve(final Scanner in) {
 		int n = in.nextInt();

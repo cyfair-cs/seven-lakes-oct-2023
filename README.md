@@ -51,39 +51,39 @@ Note that your solution absolutely does not need to be that compartmentalized or
 
 ## Problems Solved
 
-[ ] Coasting on the High Seas
-[X] The Pirate Jimmy
+- [ ] Coasting on the High Seas
+- [X] The Pirate Jimmy
   - Mufaro Machaya
   - `PirateJimmy.java`
-[ ] Mutiny on the High Seas
-[ ] X Marks the Spot
-[ ] Hit the Rack!
+- [ ] Mutiny on the High Seas
+- [ ] X Marks the Spot
+- [ ] Hit the Rack!
   - Mufaro Machaya
   - `HitTheRack.java`
-[X] Message in a Bottle
+- [X] Message in a Bottle
   - Mufaro Machaya
   - `Message.java`
-[X] We're In For Some Chop!
+- [X] We're In For Some Chop!
   - Mufaro Machaya
   - `Chop.java`
-[ ] Cannonball Run
-[X] Infinite Pirate Theorem
+- [ ] Cannonball Run
+- [X] Infinite Pirate Theorem
   - Mufaro Machaya
   - `PirateTheorem.java`
-[X] Crew Morale
+- [X] Crew Morale
   - Mufaro Machaya
   - `CrewMorale.java`
-[X] Polly Wanna Cracker
+- [X] Polly Wanna Cracker
   - Mufaro Machaya
   - `Polly.java`
-[X] Shipbuilding
+- [X] Shipbuilding
   - Mufaro Machaya
   - `ShipBuilding.java`
-[ ] Send for the Armada
-[ ] Quartermaster
-[X] Navigating the Stroudian Seas
+- [ ] Send for the Armada
+- [ ] Quartermaster
+- [X] Navigating the Stroudian Seas
   - Mufaro Machaya
   - `StroudSeas.java`
-[ ] Why Did I Take German?
-[ ] Rough Seas
-[ ] Hoist the Mizzenmast!
+- [ ] Why Did I Take German?
+- [ ] Rough Seas
+- [ ] Hoist the Mizzenmast!

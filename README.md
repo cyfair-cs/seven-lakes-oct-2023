@@ -66,7 +66,8 @@ Note that your solution absolutely does not need to be that compartmentalized or
 - [X] We're In For Some Chop!
   - Mufaro Machaya
   - `Chop.java`
-- [ ] Cannonball Run
+- [X] Cannonball Run
+  - Amogh Ajoy
 - [X] Infinite Pirate Theorem
   - Mufaro Machaya
   - `PirateTheorem.java`

@@ -68,6 +68,7 @@ Note that your solution absolutely does not need to be that compartmentalized or
   - `Chop.java`
 - [X] Cannonball Run
   - Amogh Ajoy
+  - 'cannon.java'
 - [X] Infinite Pirate Theorem
   - Mufaro Machaya
   - `PirateTheorem.java`
@@ -80,7 +81,9 @@ Note that your solution absolutely does not need to be that compartmentalized or
 - [X] Shipbuilding
   - Mufaro Machaya
   - `ShipBuilding.java`
-- [ ] Send for the Armada
+- [X] Send for the Armada
+  - Amogh Ajoy
+  - 'armada.java'
 - [ ] Quartermaster
 - [X] Navigating the Stroudian Seas
   - Mufaro Machaya

@@ -51,11 +51,14 @@ Note that your solution absolutely does not need to be that compartmentalized or
 
 ## Problems Solved
 
-- [ ] Coasting on the High Seas
+- [X] Coasting on the High Seas
+  - Amogh Ajoy
 - [X] The Pirate Jimmy
   - Mufaro Machaya
   - `PirateJimmy.java`
-- [ ] Mutiny on the High Seas
+- [X] Mutiny on the High Seas
+  - Amogh Ajoy
+  - 'mutiny.java'
 - [ ] X Marks the Spot
 - [X] Hit the Rack!
   - Mufaro Machaya

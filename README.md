@@ -3,7 +3,7 @@ A repository of all of our solutions to Seven Lakes' October 2023 Meet.
 
 ## For Contributors:
 
-Unless you have access to this repository already, submit your solutions as a pull request. All solutions will be located in the root folder (`/`), and should be created to read input from `/dataset/`. Additionally, all solutions should be well commented (with the name of the author at the top of the file) such that novice competitors can read through the solutions and fully understand them.
+Unless you have access to this repository already, submit your solutions as a pull request. Each problem has its own folder, and all solutions to that problem go in its folder. Input files are available in the `dataset` folder, so set scanners to read from that folder and move the Java file to the root directory to run. Additionally, all solutions should be well commented (with the name of the author at the top of the file) such that novice competitors can read through the solutions and fully understand them.
 
 For example:
 
@@ -53,37 +53,36 @@ Note that your solution absolutely does not need to be that compartmentalized or
 
 - [ ] Coasting on the High Seas
 - [X] The Pirate Jimmy
-  - Mufaro Machaya
-  - `PirateJimmy.java`
-- [ ] Mutiny on the High Seas
+  - Mufaro Machaya: `PirateJimmy.java`
+  - Tim: `pirateJimmy.java`
+- [X] Mutiny on the High Seas
+  - Tim: `highSeas.java`
 - [ ] X Marks the Spot
 - [X] Hit the Rack!
-  - Mufaro Machaya
-  - `HitTheRack.java`
+  - Mufaro Machaya: `HitTheRack.java`
+  - Tim: sleep.java
 - [X] Message in a Bottle
-  - Mufaro Machaya
-  - `Message.java`
+  - Mufaro Machaya: `Message.java`
 - [X] We're In For Some Chop!
-  - Mufaro Machaya
-  - `Chop.java`
-- [ ] Cannonball Run
+  - Mufaro Machaya: `Chop.java`
+  - Tim: `chop.java`
+- [X] Cannonball Run
+  - Tim: `cannon.java`
 - [X] Infinite Pirate Theorem
-  - Mufaro Machaya
-  - `PirateTheorem.java`
+  - Mufaro Machaya: `PirateTheorem.java`
+  - Tim: `infiniteTheorem.java`
 - [X] Crew Morale
-  - Mufaro Machaya
-  - `CrewMorale.java`
+  - Mufaro Machaya: `CrewMorale.java`
+  - Tim: `morale.java`
 - [X] Polly Wanna Cracker
-  - Mufaro Machaya
-  - `Polly.java`
+  - Mufaro Machaya: `Polly.java`
 - [X] Shipbuilding
-  - Mufaro Machaya
-  - `ShipBuilding.java`
+  - Mufaro Machaya: `ShipBuilding.java`
+  - Tim: `ship.java`
 - [ ] Send for the Armada
 - [ ] Quartermaster
 - [X] Navigating the Stroudian Seas
-  - Mufaro Machaya
-  - `StroudSeas.java`
+  - Mufaro Machaya: `StroudSeas.java`
 - [ ] Why Did I Take German?
 - [ ] Rough Seas
 - [ ] Hoist the Mizzenmast!

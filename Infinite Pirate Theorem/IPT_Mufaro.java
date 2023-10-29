@@ -5,7 +5,7 @@ import java.io.*;
  * Author: Mufaro Machaya
  */
 
-public class Polly {
+public class InfinitePirateTheorem_Mufaro {
 	/*
 	 * Edit this to switch between file file input
 	 * and Standard Input
@@ -18,27 +18,23 @@ public class Polly {
 	/*
 	 * All input files are located at 'dataset/'
 	 */
-	private static String INPUT_FILE = "dataset/Polly Wanna Cracker.txt";
+	private static String INPUT_FILE = "dataset/Infinite Pirate Theorem.txt";
 
 	private static void solve(final Scanner in) {
-		int n = in.nextInt();
+		int lines = in.nextInt();
 		in.nextLine();
-		for (int x = 0; x < n; ++x) {
-			String line = in.nextLine();
 
-			/*
-			 * We just loop over and over, growing our
-			 * phrase until removing all occurences of
-			 * it causes the string to be completely
-			 * empty.
-			 */
-			String phrase = line.charAt(0) + "";
-			for (int i = 1; i < line.length(); ++i) {
-				if (line.replaceAll(phrase, "").equals(""))
-					break;
-				phrase = phrase + line.charAt(i);
-			}
-			System.out.println(phrase);
+		final String key = "argh matey".toUpperCase();
+
+		for (int i = 0; i < lines; ++i) {
+			char[] chars = in.nextLine().toUpperCase().toCharArray();
+			ArrayList<Character> nons = new ArrayList<Character>();
+			for (Character c: chars)
+				if (!key.contains(c + "") && !nons.contains(c))
+					nons.add(c);
+
+			// System.out.println(nons);
+			System.out.println(nons.isEmpty() ? "Yes" : "No");
 		}
 	}
 

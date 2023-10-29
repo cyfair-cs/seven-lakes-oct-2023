@@ -5,7 +5,7 @@ import java.io.*;
  * Author: Mufaro Machaya
  */
 
-public class PirateTheorem {
+public class PirateJimmy {
 	/*
 	 * Edit this to switch between file file input
 	 * and Standard Input
@@ -18,24 +18,10 @@ public class PirateTheorem {
 	/*
 	 * All input files are located at 'dataset/'
 	 */
-	private static String INPUT_FILE = "dataset/Infinite Pirate Theorem.txt";
+	private static String INPUT_FILE = "dataset/The Pirate Jimmy.txt";
 
 	private static void solve(final Scanner in) {
-		int lines = in.nextInt();
-		in.nextLine();
-
-		final String key = "argh matey".toUpperCase();
-
-		for (int i = 0; i < lines; ++i) {
-			char[] chars = in.nextLine().toUpperCase().toCharArray();
-			ArrayList<Character> nons = new ArrayList<Character>();
-			for (Character c: chars)
-				if (!key.contains(c + "") && !nons.contains(c))
-					nons.add(c);
-
-			// System.out.println(nons);
-			System.out.println(nons.isEmpty() ? "Yes" : "No");
-		}
+		System.out.println(in.nextLine().toLowerCase().equals("gold coin") ? "yes" : "no");
 	}
 
  	/*

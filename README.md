@@ -3,9 +3,13 @@ A repository of all of our solutions to Seven Lakes' October 2023 Meet.
 
 ## For Contributors:
 
-Unless you have access to this repository already, submit your solutions as a pull request. All solutions will be located in the root folder (`/`), and should be created to read input from `/dataset/`. Additionally, all solutions should be well commented (with the name of the author at the top of the file) such that novice competitors can read through the solutions and fully understand them.
+Unless you have access to this repository already, submit your solutions as a pull request. Each problem has its own folder, and all solutions to that problem go in its folder. Input files are available in the `dataset` folder, so set scanners to read from that folder and move the Java file to the root directory to run. Additionally, all solutions should be well commented (with the name of the author at the top of the file) such that novice competitors can read through the solutions and fully understand them.
 
-For example:
+The name of each solution should be the abbreviation of the problem should be abbreviated, with the name of the problem with it's abbreviation and the name of the team captian or author of the program.
+
+For example, with The Pirate Jimmy, one would submit `The Pirate Jimmy/TPJ_Mufaro.java`
+
+For example: `Problem Name/ProblemAbbreviation_Brimey.java`
 
 ```java
 /*
@@ -16,7 +20,7 @@ For example:
 import java.util.Scanner;
 // Other Inputs
 
-class Solution {
+class Problem_Brimey {
 
   /*
    * Some top-level description of your function
@@ -52,45 +56,46 @@ Note that your solution absolutely does not need to be that compartmentalized or
 ## Problems Solved
 
 - [X] Coasting on the High Seas
-  - Amogh Ajoy
+  - Done by All
 - [X] The Pirate Jimmy
   - Mufaro Machaya
-  - `PirateJimmy.java`
 - [X] Mutiny on the High Seas
   - Amogh Ajoy
-  - 'mutiny.java'
+  - Mufaro Machaya
+  - Timothy Shammas
+- [X] Mutiny on the High Seas
+  - Amogh Ajoy
+  - Timothy Shammas
 - [ ] X Marks the Spot
 - [X] Hit the Rack!
   - Mufaro Machaya
-  - `HitTheRack.java`
+  - Timothy Shammas
 - [X] Message in a Bottle
   - Mufaro Machaya
-  - `Message.java`
 - [X] We're In For Some Chop!
   - Mufaro Machaya
-  - `Chop.java`
+  - Nam Le
+  - Timothy Shammas
 - [X] Cannonball Run
   - Amogh Ajoy
-  - 'cannon.java'
+  - Timothy Shammas
 - [X] Infinite Pirate Theorem
   - Mufaro Machaya
-  - `PirateTheorem.java`
+  - Timothy Shammas
 - [X] Crew Morale
   - Mufaro Machaya
-  - `CrewMorale.java`
+  - Timothy Shammas
 - [X] Polly Wanna Cracker
   - Mufaro Machaya
-  - `Polly.java`
 - [X] Shipbuilding
   - Mufaro Machaya
-  - `ShipBuilding.java`
+  - Nam Le
+  - Timothy Shammas
 - [X] Send for the Armada
   - Amogh Ajoy
-  - 'armada.java'
 - [ ] Quartermaster
 - [X] Navigating the Stroudian Seas
   - Mufaro Machaya
-  - `StroudSeas.java`
 - [ ] Why Did I Take German?
 - [ ] Rough Seas
 - [ ] Hoist the Mizzenmast!

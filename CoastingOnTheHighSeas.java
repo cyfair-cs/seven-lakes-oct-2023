@@ -1,3 +1,7 @@
+/*
+ * ALL solutions to this problem are exactly the same.
+ */
+
 import static java.lang.System.*;
 import java.util.*;
 import java.io.*;

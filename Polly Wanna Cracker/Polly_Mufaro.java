@@ -5,7 +5,7 @@ import java.io.*;
  * Author: Mufaro Machaya
  */
 
-public class PirateJimmy {
+public class PollyWannaCracker_Mufaro {
 	/*
 	 * Edit this to switch between file file input
 	 * and Standard Input
@@ -18,11 +18,28 @@ public class PirateJimmy {
 	/*
 	 * All input files are located at 'dataset/'
 	 */
-	private static String INPUT_FILE = "dataset/The Pirate Jimmy.txt";
+	private static String INPUT_FILE = "dataset/Polly Wanna Cracker.txt";
 
 	private static void solve(final Scanner in) {
-		String line = in.nextLine();
-		System.out.println(line.toLowerCase().equals("gold coin") ? "yes" : "no");
+		int n = in.nextInt();
+		in.nextLine();
+		for (int x = 0; x < n; ++x) {
+			String line = in.nextLine();
+
+			/*
+			 * We just loop over and over, growing our
+			 * phrase until removing all occurences of
+			 * it causes the string to be completely
+			 * empty.
+			 */
+			String phrase = line.charAt(0) + "";
+			for (int i = 1; i < line.length(); ++i) {
+				if (line.replaceAll(phrase, "").equals(""))
+					break;
+				phrase = phrase + line.charAt(i);
+			}
+			System.out.println(phrase);
+		}
 	}
 
  	/*
